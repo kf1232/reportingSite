@@ -1,0 +1,41 @@
+.BodyContainer {
+    display:grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    
+}
+
+
+.mainSelector {
+    display:flex;
+    margin: 5px 10px;
+}
+.mainSelectorTab {
+    margin: 3px 10px;
+}
+
+.mainTable {
+    width: 61%;
+    margin: 10px auto;
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+    
+}
+.leftTable {
+    width: 60%;
+    margin: 10px;
+    margin-right: 1%;
+    margin-left: auto;
+    grid-column: 1 / 1;
+    grid-row: 2;
+    
+}
+.rightTable {
+    width: 60%;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: 1%;
+    grid-column: 2 / 2;
+    grid-row: 2;
+    
+}
